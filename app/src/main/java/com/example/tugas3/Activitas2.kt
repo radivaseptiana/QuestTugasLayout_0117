@@ -114,3 +114,10 @@ fun KartuMahasiswa(
             )
             Spacer(modifier = Modifier.width(10.dp))
             Column(modifier = Modifier.weight(1f)) {
+                Text(
+                    text = nama,
+                    fontSize = 25.sp,
+                    fontFamily = fontNama,
+                    fontWeight = beratNama,
+                    color = colorResource(R.color.white)
+                )
