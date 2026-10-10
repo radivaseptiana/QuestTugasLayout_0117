@@ -55,3 +55,12 @@ fun Activitas2(modifier: Modifier = Modifier) {
             beratNama = FontWeight.Normal
         )
 
+        KartuMahasiswa(
+            nama = stringResource(R.string.nama_1),
+            telepon = stringResource(R.string.telepon),
+            alamat = stringResource(R.string.alamat_1),
+            warnaCard = colorResource(R.color.card_1_bg),
+            warnaTelepon = colorResource(R.color.telepon_cyan),
+            warnaAlamat = colorResource(R.color.yellow)
+        )
+
