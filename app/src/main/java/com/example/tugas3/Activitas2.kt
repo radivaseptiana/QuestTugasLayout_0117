@@ -64,3 +64,12 @@ fun Activitas2(modifier: Modifier = Modifier) {
             warnaAlamat = colorResource(R.color.yellow)
         )
 
+        KartuMahasiswa(
+            nama = stringResource(R.string.nama_2),
+            telepon = stringResource(R.string.telepon),
+            alamat = stringResource(R.string.alamat_2),
+            warnaCard = colorResource(R.color.card_2_bg),
+            warnaTelepon = colorResource(R.color.telepon_aqua),
+            warnaAlamat = colorResource(R.color.white)
+        )
+
