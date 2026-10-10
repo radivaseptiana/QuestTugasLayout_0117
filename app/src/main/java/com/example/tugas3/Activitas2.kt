@@ -27,3 +27,4 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun Activitas2(modifier: Modifier = Modifier) {
+    Column(
