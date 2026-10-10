@@ -121,3 +121,17 @@ fun KartuMahasiswa(
                     fontWeight = beratNama,
                     color = colorResource(R.color.white)
                 )
+                if (telepon != null) {
+                    Text(
+                        text = telepon,
+                        fontSize = 16.sp,
+                        color = warnaTelepon
+                    )
+                }
+                Text(
+                    text = alamat,
+                    fontSize = 16.sp,
+                    color = warnaAlamat,
+                    modifier = Modifier.padding(top = 5.dp)
+                )
+            }
