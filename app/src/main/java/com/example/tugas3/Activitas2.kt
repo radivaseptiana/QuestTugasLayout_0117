@@ -105,3 +105,10 @@ fun KartuMahasiswa(
             modifier = Modifier.padding(vertical = 5.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(100.dp)
+                    .padding(5.dp)
+            )
