@@ -95,3 +95,9 @@ fun KartuMahasiswa(
     fontNama: FontFamily = FontFamily.Default,
     beratNama: FontWeight = FontWeight.Bold
 ) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 12.dp, vertical = 6.dp),
+        colors = CardDefaults.cardColors(containerColor = warnaCard)
+    ) {
