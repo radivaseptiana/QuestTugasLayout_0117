@@ -44,3 +44,14 @@ fun Activitas2(modifier: Modifier = Modifier) {
         )
         Spacer(modifier = Modifier.height(25.dp))
 
+        KartuMahasiswa(
+            nama = stringResource(R.string.nama_0),
+            telepon = null,
+            alamat = stringResource(R.string.alamat_0),
+            warnaCard = colorResource(R.color.card_0_bg),
+            warnaTelepon = colorResource(R.color.telepon_cyan),
+            warnaAlamat = colorResource(R.color.yellow),
+            fontNama = FontFamily.Cursive,
+            beratNama = FontWeight.Normal
+        )
+
