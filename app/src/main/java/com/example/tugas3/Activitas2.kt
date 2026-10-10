@@ -28,3 +28,8 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun Activitas2(modifier: Modifier = Modifier) {
     Column(
+        modifier = modifier
+            .padding(top = 100.dp)
+            .fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
