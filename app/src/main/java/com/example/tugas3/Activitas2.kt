@@ -135,3 +135,14 @@ fun KartuMahasiswa(
                     modifier = Modifier.padding(top = 5.dp)
                 )
             }
+            Spacer(modifier = Modifier.width(10.dp))
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(100.dp)
+                    .padding(5.dp)
+            )
+        }
+    }
+}
