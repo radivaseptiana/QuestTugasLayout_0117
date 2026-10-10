@@ -101,3 +101,7 @@ fun KartuMahasiswa(
             .padding(horizontal = 12.dp, vertical = 6.dp),
         colors = CardDefaults.cardColors(containerColor = warnaCard)
     ) {
+        Row(
+            modifier = Modifier.padding(vertical = 5.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
