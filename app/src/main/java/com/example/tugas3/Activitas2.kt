@@ -84,3 +84,14 @@ fun Activitas2(modifier: Modifier = Modifier) {
     }
 }
 
+@Composable
+fun KartuMahasiswa(
+    nama: String,
+    telepon: String?,
+    alamat: String,
+    warnaCard: Color,
+    warnaTelepon: Color,
+    warnaAlamat: Color,
+    fontNama: FontFamily = FontFamily.Default,
+    beratNama: FontWeight = FontWeight.Bold
+) {
